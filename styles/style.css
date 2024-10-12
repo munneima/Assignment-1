@@ -64,60 +64,62 @@
 
 /* second section starts here */
 
-.second-section {
-    max-width: 1140px;
-    padding: 80px 97px;
-    align-items: center;
-    gap: 10px;
-    border-radius: 16px;
-    background: rgba(13, 19, 33, 0.02);
-    display: flex;
-    flex-direction: column;
-    margin-top: 74px;
-    margin-left: 150px;
-    margin-right: 150px;
-    margin-bottom: 90px;
+main {
+    margin-top: 60px;
 }
 
-.section-heading {
-    color: #0D1321;
+.why-web-container {
+    margin-bottom: 140px;
+    max-width: 1140px;
+    margin: 0 auto;
+    padding: 80px 97px;
+    border-radius: 16px;
+    background: rgba(13, 19, 33, 0.02);
+}
+
+.why-web-container .content h3 {
+    color: #0d1321;
     text-align: center;
+    font-family: "Azeret Mono";
     font-size: 32px;
     font-style: normal;
     font-weight: 800;
     line-height: normal;
 }
 
-.section-description {
-    color: #0D1321;
+.why-web-container .content p {
+    color: #0d1321;
     text-align: center;
     font-family: "Azeret Mono";
     font-size: 16px;
     font-style: normal;
     font-weight: 400;
     line-height: 26px;
-    opacity: 0.7;
+    margin-top: 24px;
 }
 
-.section-content {
+.part1-container {
+    margin-top: 100px;
     display: flex;
-    padding: 48px;
+    align-items: center;
+    justify-content: space-between;
     border-radius: 16px;
     background: linear-gradient(90deg, #FFF 0%, rgba(255, 255, 255, 0.00) 100%);
-    margin-bottom: 32px;
-
+    padding: 48px;
 }
 
-.section-content-heading {
-    color: rgba(13, 19, 33, 0.70);
+.part1-container .left-side h4 {
+    color: rgba(13, 19, 33, 0.7);
+    font-family: "Azeret Mono";
     font-size: 24px;
     font-style: normal;
     font-weight: 700;
     line-height: 36px;
 }
 
-.section-content-description {
-    color: #0D1321;
+.part1-container .left-side p {
+    color: #0d1321;
+    font-family: "Azeret Mono";
     font-size: 16px;
     font-style: normal;
     font-weight: 400;
@@ -126,18 +128,74 @@
     margin-top: 16px;
 }
 
-.btn {
-    border: 1px solid #0D1321;
-    opacity: 0.7;
+.part1-container .left-side button {
+    display: flex;
     padding: 12px 20px;
+    justify-content: center;
+    align-items: center;
     gap: 10px;
-    color: #0D1321;
+    border: 1px solid #0d1321;
+    opacity: 0.7;
+    color: #0d1321;
     text-align: center;
+    font-family: "Azeret Mono";
     font-size: 20px;
     font-style: normal;
     font-weight: 600;
     line-height: normal;
     margin-top: 32px;
 }
+
+.part2-container {
+    margin-top: 100px;
+    display: flex;
+    align-items: center;
+    padding: 48px;
+    border-radius: 16px;
+    background: linear-gradient(270deg, #FFF 0%, rgba(255, 255, 255, 0.00) 100%);
+}
+
+.part2-container .right-side {
+    margin-left: 36px;
+}
+
+.part2-container .right-side h4 {
+    color: rgba(13, 19, 33, 0.7);
+    font-family: "Azeret Mono";
+    font-size: 24px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 36px;
+}
+
+.part2-container .right-side p {
+    color: #0d1321;
+    font-family: "Azeret Mono";
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 26px;
+    opacity: 0.7;
+    margin-top: 16px;
+}
+
+.part2-container .right-side button {
+    display: flex;
+    padding: 12px 20px;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+    border: 1px solid #0d1321;
+    opacity: 0.7;
+    color: #0d1321;
+    text-align: center;
+    font-family: "Azeret Mono";
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: normal;
+    margin-top: 32px;
+}
+
 
 /* second section ends here */
