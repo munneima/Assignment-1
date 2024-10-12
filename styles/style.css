@@ -199,3 +199,49 @@ main {
 
 
 /* second section ends here */
+
+/* third section starts here */
+
+.inspiration-container {
+    display: flex;
+    max-width: 1140px;
+    flex-direction: column;
+    align-items: center;
+    gap: 48px;
+    margin: 0 auto;
+    margin-top: 90px;
+}
+
+.inspiration-text h3 {
+    color: #0D1321;
+    text-align: center;
+    font-family: "Azeret Mono";
+    font-size: 32px;
+    font-style: normal;
+    font-weight: 800;
+    line-height: normal;
+}
+
+.inspiration-text p {
+    color: #0D1321;
+    text-align: center;
+    font-family: "Azeret Mono";
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 26px;
+    opacity: 0.7;
+}
+
+.inspiration-content {
+    border-radius: 16px;
+    border: 1px solid rgba(13, 19, 33, 0.20);
+    padding: 32px;
+    gap: 10px;
+}
+
+.inspiration-content iframe {
+    border-radius: 16px;
+}
+
+/* third section ends here */
