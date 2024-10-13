@@ -12,7 +12,7 @@
 
 .header-section {
     background-image: url('../assets/Hero-bg.png');
-    max-width: 1140px;
+    max-width: 1440px;
     max-height: 652px;
     margin: 0 auto;
 
@@ -220,6 +220,7 @@ main {
     font-style: normal;
     font-weight: 800;
     line-height: normal;
+    margin-bottom: 24px;
 }
 
 .inspiration-text p {
@@ -245,3 +246,106 @@ main {
 }
 
 /* third section ends here */
+
+/* fourth section starts here */
+
+.target-section {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 48px;
+    margin-top: 150px;
+}
+
+.target-text h3 {
+    color: #0D1321;
+    text-align: center;
+    font-family: "Azeret Mono";
+    font-size: 32px;
+    font-style: normal;
+    font-weight: 800;
+    line-height: normal;
+    margin-bottom: 24px;
+}
+
+.target-text p {
+    color: #0D1321;
+    text-align: center;
+    font-family: "Azeret Mono";
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 26px;
+    opacity: 0.7;
+}
+
+.cards-container {
+    display: flex;
+    gap: 24px;
+    margin-bottom: 50px;
+}
+
+.cards-container h4 {
+    color: #0D1321;
+    font-family: "Azeret Mono";
+    font-size: 24px;
+    font-style: normal;
+    font-weight: 800;
+    line-height: 36px;
+
+}
+
+.cards-container p {
+    color: #0D1321;
+    font-family: "Azeret Mono";
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 26px;
+    opacity: 0.7;
+}
+
+.cards-container a {
+    color: #0D1321;
+    font-family: "Azeret Mono";
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+    text-decoration-line: underline;
+}
+
+.first-card {
+    display: flex;
+    width: 364px;
+    padding: 40px;
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 32px;
+    border-radius: 16px;
+    background: rgba(255, 76, 30, 0.05);
+}
+
+.second-card {
+    display: flex;
+    width: 364px;
+    padding: 40px;
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 32px;
+    border-radius: 16px;
+    background: rgba(0, 76, 232, 0.05);
+}
+
+.third-card {
+    display: flex;
+    width: 364px;
+    padding: 40px;
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 32px;
+    border-radius: 16px;
+    background: rgba(255, 223, 0, 0.05);
+}
+
+/* fourth section ends here */
